@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <envs>
+      <env name="JDBCUrl" value="jdbc:mysql://52.174.19.247:3306/student" />
+      <env name="JDBCUsername" value="root" />
+      <env name="JDBCPassword" value="1234" />
+    </envs>
+    <module name="JPA" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jpa.JpaApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

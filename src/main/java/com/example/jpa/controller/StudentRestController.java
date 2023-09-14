@@ -16,6 +16,11 @@ public class StudentRestController {
     @Autowired
     StudentRepository studentRepository;
 
+    @GetMapping("/")
+    public String rootPage() {
+        return "You are in the root og JPAStudent";
+    }
+
     //Get students
     @GetMapping("/students")
     public List<Student> students() {
